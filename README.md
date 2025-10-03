@@ -19,9 +19,9 @@ La page d'accueil d'Actua a pour objectifs principaux :
 
 ## 📸 Capture d'Écran
 
-![Capture d'écran de la page d'accueil Actua](capture1.png)
-![Capture d'écran de la page d'accueil Actua](capture2.png)
-![Capture d'écran de la page d'accueil Actua](capture3.png)
+![Capture d'écran de la page d'accueil Actua](.capture1.png)
+![Capture d'écran de la page d'accueil Actua](.capture2.png)
+![Capture d'écran de la page d'accueil Actua](.capture3.png)
 
 *Note : Ajoutez votre capture d'écran dans le dossier `/screenshots`*
 
