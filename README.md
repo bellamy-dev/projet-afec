@@ -15,7 +15,7 @@ La page d'accueil d'Actua a pour objectifs principaux :
 
 ## 🔗 Maquette en Ligne
 
-[Lien vers la maquette Figma](#) *(À remplacer par votre lien Figma)*
+[Lien vers la maquette Figma](#) *(https://www.figma.com/design/dmh6qdatipLP6qlfXDjFtP/ActuA?node-id=1-26)*
 
 ## 📸 Capture d'Écran
 
