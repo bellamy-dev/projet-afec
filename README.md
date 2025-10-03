@@ -23,7 +23,6 @@ La page d'accueil d'Actua a pour objectifs principaux :
 ![Capture d'écran de la page d'accueil Actua](capture2.png)
 ![Capture d'écran de la page d'accueil Actua](capture3.png)
 
-*Note : Ajoutez votre capture d'écran dans le dossier `/screenshots`*
 
 ## 🏗️ Structure de la Page
 
@@ -31,37 +30,30 @@ La page d'accueil d'Actua a pour objectifs principaux :
 
 1. **En-tête (Header)**
    - Logo Actua
-   - Menu de navigation (Actualités, Dangers, Conseils, À propos, Contact)
-   - Barre de recherche
+   - Menu de navigation
 
-2. **Bannière Héro**
-   - Message d'accroche principal
-   - Call-to-action (S'abonner à la newsletter)
-   - Image ou illustration engageante
-
-3. **Actualités à la Une**
-   - Carrousel ou grille des articles les plus récents
+2. **Carrousel**
+   - Carrousel
    - Catégories : Réseaux sociaux, Santé mentale, Éducation numérique, etc.
 
-4. **Section "Dangers du Moment"**
+3. **Section "Dangers du Moment"**
    - Alertes sur les tendances dangereuses
    - Conseils de prévention rapides
 
-5. **Témoignages**
-   - Avis de parents utilisateurs
    - Crédibilité de la plateforme
 
-6. **Pied de page (Footer)**
+4. **Pied de page (Footer)**
    - Liens utiles
    - Réseaux sociaux
    - Mentions légales
 
 ## 🎨 Palette de Couleurs Suggérée
 
-- **Couleur principale** : Bleu rassurant (#2563EB)
-- **Couleur secondaire** : Orange alerte (#F97316)
-- **Couleur neutre** : Gris clair (#F3F4F6)
-- **Texte** : Gris foncé (#1F2937)
+- #000814
+- #001D3D
+- #003566
+- #FFC300
+- #FFD60A
 
 ## 👥 Public Cible
 
@@ -69,5 +61,3 @@ La page d'accueil d'Actua a pour objectifs principaux :
 - Parents de pré-adultes (18-25 ans)
 - Éducateurs et professionnels de l'enfance
 ---
-
-**Note importante** : Ce projet vise à informer et protéger, pas à alarmer. Le ton éditorial se veut bienveillant et constructif.
