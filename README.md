@@ -15,14 +15,18 @@ La page d'accueil d'Actua a pour objectifs principaux :
 
 ## 🔗 Maquette en Ligne
 
-[Lien vers la maquette Figma](#) *(https://www.figma.com/design/dmh6qdatipLP6qlfXDjFtP/ActuA?node-id=1-26)*
+[Voir la maquette Figma](https://www.figma.com/design/dmh6qdatipLP6qlfXDjFtP/ActuA?node-id=1-26)
 
-## 📸 Capture d'Écran
+## 📸 Captures d'Écran
 
-![Capture d'écran de la page d'accueil Actua](capture1.png)
-![Capture d'écran de la page d'accueil Actua](capture2.png)
-![Capture d'écran de la page d'accueil Actua](capture3.png)
+### Vue d'ensemble de la page d'accueil
+![Capture d'écran 1 - Page d'accueil Actua](capture1.png)
 
+### Section carrousel et catégories
+![Capture d'écran 2 - Carrousel Actua](capture2.png)
+
+### Section dangers du moment
+![Capture d'écran 3 - Dangers et alertes](capture3.png)
 
 ## 🏗️ Structure de la Page
 
@@ -33,13 +37,12 @@ La page d'accueil d'Actua a pour objectifs principaux :
    - Menu de navigation
 
 2. **Carrousel**
-   - Carrousel
+   - Présentation dynamique des actualités principales
    - Catégories : Réseaux sociaux, Santé mentale, Éducation numérique, etc.
 
 3. **Section "Dangers du Moment"**
    - Alertes sur les tendances dangereuses
    - Conseils de prévention rapides
-
    - Crédibilité de la plateforme
 
 4. **Pied de page (Footer)**
@@ -47,17 +50,16 @@ La page d'accueil d'Actua a pour objectifs principaux :
    - Réseaux sociaux
    - Mentions légales
 
-## 🎨 Palette de Couleurs Suggérée
+## 🎨 Palette de Couleurs
 
-- #000814
-- #001D3D
-- #003566
-- #FFC300
-- #FFD60A
+- **Bleu très foncé** : `#000814`
+- **Bleu marine** : `#001D3D`
+- **Bleu profond** : `#003566`
+- **Jaune doré** : `#FFC300`
+- **Jaune vif** : `#FFD60A`
 
 ## 👥 Public Cible
 
 - Parents d'adolescents (12-18 ans)
 - Parents de pré-adultes (18-25 ans)
 - Éducateurs et professionnels de l'enfance
----
