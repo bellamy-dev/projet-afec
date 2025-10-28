@@ -18,6 +18,7 @@ document.addEventListener('keydown', (event) => {  // Ajoute 'event' ici !
             break;
 
         case "Space":
+        case "ArrowUp":
             if (!inJump) {
                 inJump = true;
                 jumpsound.currentTime = 0;
