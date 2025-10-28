@@ -2,7 +2,7 @@
 
 Un jeu de plateforme inspiré de Super Mario, développé en JavaScript avec canvas HTML5.
 
-![Screenshot du jeu](screenshot.png)
+![Screenshot du jeu](src/img/screenshot.png)
 
 ## 📖 Description
 
