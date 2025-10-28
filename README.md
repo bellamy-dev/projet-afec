@@ -24,16 +24,17 @@ Ce projet est une recréation simple mais fun du célèbre jeu Mario. Contrôlez
 | `Espace` ou `↑` | Sauter |
 
 mario/
-    ├── src/
-    │   ├── js/
-    │   │   └── script.js
-    │   ├── css/
-    │   │   └── style.css
-    │   ├── img/
-    │   │   ├── mario.png
-    │   │   └── screenshot.png
-    │   └── audio/
-    │       └── jump.mp3
-    ├── .DS_Store
-    ├── README.md
-    └── index.html
+├── src/
+│   ├── js/
+│   │   └── script.js
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   ├── mario.png
+│   │   └── screenshot.png
+│   └── audio/
+│       └── jump.mp3
+├── .DS_Store
+├── README.md
+└── index.html
+
