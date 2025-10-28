@@ -4,6 +4,7 @@ Un jeu de plateforme inspiré de Super Mario, développé en JavaScript avec can
 
 ![Screenshot du jeu](src/img/screenshot.png)
 
+
 ## 📖 Description
 
 Ce projet est une recréation simple mais fun du célèbre jeu Mario. Contrôlez votre personnage dans un univers 2D et profitez d'une expérience de jeu nostalgique directement dans votre navigateur !
