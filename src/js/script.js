@@ -10,6 +10,9 @@ const message = document.getElementById("message");
 
 const storedName = localStorage.getItem("nom");
 
+const clearBtn = document.getElementById("clearBtn");
+
+
 if (storedName) {
     message.textContent = `Bonjour, ${storedName} !`;
     message.style.color = "green";
@@ -26,6 +29,12 @@ saveBtn.addEventListener("click", function() {
     }
     else{
         message.textContent = `Veuillez entrer un nom.`;
-        message.style.color = "red";
+        message.style.color = "#F18F01";
+        message.style.backgroundColor = "#C73E1D";
     }
 });
+
+
+clearBtn.addEventListener("click", function() {
+    localStorage.removeItem("nom");
+})
