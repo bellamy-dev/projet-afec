@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Articles</title>
+    <title>Article - Blog</title>
     <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
 <!-- Navigation -->
 <nav id="nav-container"></nav>
 
-<!-- Contenu principal -->
+<!-- Contenu de l'article -->
 <main>
-    <div class="main-content">
-        <h1>Nos Articles</h1>
-        <p>Découvrez nos derniers articles</p>
-    </div>
+    <article id="article-detail" class="article-detail">
+        <!-- Le contenu sera injecté par JavaScript -->
+    </article>
 
-    <!-- Container pour les cartes d'articles -->
-    <div id="container" class="articles-container"></div>
+    <div class="article-navigation">
+        <a href="index.html" class="btn-back">← Retour aux articles</a>
+    </div>
 </main>
 
 <!-- Footer -->
@@ -28,6 +28,6 @@
 
 <!-- Scripts -->
 <script type="module" src="public/js/nav.js"></script>
-<script type="module" src="public/js/script.js"></script>
+<script type="module" src="public/js/article-detail.js"></script>
 </body>
 </html>
