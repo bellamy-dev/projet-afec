@@ -1,20 +1,22 @@
 const perso = document.getElementById("perso");
 const jumpsound = document.querySelector("#jumpsound");
 
-let positionX = 100; // position de départ
-let inJump = false; // saut désactivé par default
+let positionX = 100;
+let inJump = false;
 
-document.addEventListener('keydown', (event) => {  // Ajoute 'event' ici !
+document.addEventListener('keydown', (event) => {
 
     switch(event.code) {
         case "ArrowRight":
             positionX += 15;
             perso.style.left = positionX + 'px';
+            perso.style.backgroundImage = 'url(./src/img/marioright.png)';
             break;
 
         case "ArrowLeft":
             positionX -= 15;
             perso.style.left = positionX + 'px';
+            perso.style.backgroundImage = 'url(./src/img/marioleft.png)';
             break;
 
         case "Space":
@@ -24,10 +26,9 @@ document.addEventListener('keydown', (event) => {  // Ajoute 'event' ici !
                 jumpsound.currentTime = 0;
                 jumpsound.play();
 
-                // Animation de saut
-                perso.style.bottom = '200px'; // Monte
+                perso.style.bottom = '200px';
                 setTimeout(() => {
-                    perso.style.bottom = '60px'; // Redescend
+                    perso.style.bottom = '60px';
                     setTimeout(() => {
                         inJump = false;
                     }, 100);
