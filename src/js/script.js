@@ -34,7 +34,7 @@ document.addEventListener('keydown', (event) => {
                         inJump = false;
                         perso.style.backgroundImage = 'url(./src/img/marioright.png)';
                     }, 100);
-                }, 300);
+                }, (400));
             }
             break;
 
