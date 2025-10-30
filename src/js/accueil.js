@@ -1,3 +1,5 @@
+import "../css/data.css";
+
 const users = [
     {email: "test@mail.com", password: "1234"},
     {email: "bellamy.dev@icloud.com", password: "1234"}
@@ -31,3 +33,21 @@ if (loginForm) {
     });
 }
 
+
+// Gestion de la deconnexion
+
+const logoutBtn = document.getElementById("logoutBtn");
+
+if (logoutBtn) {
+    logoutBtn.addEventListener("click", () => {
+        localStorage.removeItem("isLoggin");
+        localStorage.removeItem("currentUser");
+        window.location.href = "login.html";
+
+    })
+    if (window.location.pathname.endsWith("accueil.html")) {
+        if (localStorage.getItem("isLoggin") !== "true") {
+            window.location.href = "login.html";
+        }
+    }
+}
