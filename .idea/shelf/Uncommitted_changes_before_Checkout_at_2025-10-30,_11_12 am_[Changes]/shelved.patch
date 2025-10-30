@@ -1,0 +1,19 @@
+Index: script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/script.js b/README.md
+rename from script.js
+rename to README.md
+--- a/script.js	(revision 31608362cbc7748d1d5d080cf7ca81c6637796d0)
++++ b/README.md	(date 1761817191529)
+@@ -1,0 +1,8 @@
++projet-afec/
++├── public/
++│   ├── js/
++│   │   └── script.js
++│   └── css/
++│       └── style.ts
++├── README.md
++└── index.html

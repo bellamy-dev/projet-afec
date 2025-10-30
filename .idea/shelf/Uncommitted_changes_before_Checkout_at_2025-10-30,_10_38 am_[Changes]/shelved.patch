@@ -1,0 +1,14 @@
+Index: src/js/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>const perso = document.getElementById(\"perso\");\nconst jumpsound = document.querySelector(\"#jumpsound\");\n\nlet positionX = 100;\nlet inJump = false;\n\ndocument.addEventListener('keydown', (event) => {\n\n    switch(event.code) {\n        case \"ArrowRight\":\n            positionX += 15;\n            perso.style.left = positionX + 'px';\n            perso.style.backgroundImage = 'url(./src/img/marioright.png)';\n            break;\n\n        case \"ArrowLeft\":\n            positionX -= 15;\n            perso.style.left = positionX + 'px';\n            perso.style.backgroundImage = 'url(./src/img/marioleft.png)';\n            break;\n\n        case \"Space\":\n        case \"ArrowUp\":\n            if (!inJump) {\n                inJump = true;\n                jumpsound.currentTime = 0;\n                jumpsound.play();\n\n                perso.style.bottom = '200px';\n                setTimeout(() => {\n                    perso.style.bottom = '60px';\n                    setTimeout(() => {\n                        inJump = false;\n                    }, 100);\n                }, 300);\n            }\n            break;\n\n        default:\n            break;\n    }\n});\n
+===================================================================
+diff --git a/src/js/script.js b/src/js/script.js
+--- a/src/js/script.js	(revision 090653ce34667e504aae8ab5c7ff6237026d0a45)
++++ b/src/js/script.js	(date 1761815408941)
+@@ -40,3 +40,5 @@
+             break;
+     }
+ });
++
++console.log(typeof null);

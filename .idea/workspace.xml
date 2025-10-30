@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92bd6397-d119-4cf6-bd25-05113671a53f" name="Changes" comment="aze">
-      <change afterPath="$PROJECT_DIR$/src/img/marioleft.png" afterDir="false" />
+    <list default="true" id="92bd6397-d119-4cf6-bd25-05113671a53f" name="Changes" comment="change">
+      <change afterPath="$PROJECT_DIR$/src/img/mariojumpleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mariojumpright.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/mario.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/marioright.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/marioleft.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/marioleft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/marioright.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/marioright.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "mario",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bellamydev/Desktop/Dev/Done/projet-afec/src/img",
@@ -145,6 +145,7 @@
       <workItem from="1761641733820" duration="12490000" />
       <workItem from="1761674786677" duration="620000" />
       <workItem from="1761675414217" duration="4686000" />
+      <workItem from="1761813443966" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -178,13 +179,13 @@
       <option name="project" value="LOCAL" />
       <updated>1761675512262</updated>
     </task>
-    <task id="LOCAL-00005" summary="aze">
+    <task id="LOCAL-00005" summary="change">
       <option name="closed" value="true" />
-      <created>1761743644717</created>
+      <created>1761813466883</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1761743644717</updated>
+      <updated>1761813466883</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -218,8 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Ajout dossier mario et scripts" />
-    <MESSAGE value="aze" />
-    <option name="LAST_COMMIT_MESSAGE" value="aze" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

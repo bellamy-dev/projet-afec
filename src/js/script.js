@@ -25,12 +25,14 @@ document.addEventListener('keydown', (event) => {
                 inJump = true;
                 jumpsound.currentTime = 0;
                 jumpsound.play();
+                perso.style.backgroundImage = 'url(./src/img/mariojumpright.png)';
 
                 perso.style.bottom = '200px';
                 setTimeout(() => {
                     perso.style.bottom = '60px';
                     setTimeout(() => {
                         inJump = false;
+                        perso.style.backgroundImage = 'url(./src/img/marioright.png)';
                     }, 100);
                 }, 300);
             }
